@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Exercise from '../Exercise/Exercise';
 import ExercisesDetails from '../ExercisesDetails/ExercisesDetails';
 import Header from '../Header/Header';
+import { addBreakTimeToLocalStorage, getBreakTimeFromLocalStorage } from '../../utilities/localStorage'
 import './Exercises.css'
 
 const Exercises = () => {
@@ -15,16 +16,24 @@ const Exercises = () => {
         .then(data => setExercises(data))
     }, [])
 
+    useEffect(() => {
+        const breakTimeFromLocalStorage = getBreakTimeFromLocalStorage()
+        setBreakTime(breakTimeFromLocalStorage)
+    }, [])
+
     const handleExerciseTime = (exercise) => {
         setExerciseTime(exerciseTime + exercise.time)
     }
 
     const handleBreakTime = (e) => {
-        let value = e.target.innerText
-        value = value.split('')
-        value.pop()
-        value = value.join('')
-        setBreakTime(value)
+        let time = e.target.innerText
+        time = time.split('')
+        time.pop()
+        time = time.join('')
+        setBreakTime(time)
+
+        addBreakTimeToLocalStorage(time)
+
     }
 
     return (
