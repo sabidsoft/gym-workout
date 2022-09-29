@@ -1,5 +1,5 @@
-import React from 'react';
-import ExerciseDetail from '../ExerciseDetail/ExerciseDetail';
+import React from 'react'
+import ExerciseDetail from '../ExerciseDetail/ExerciseDetail'
 import './ExerciseDeatils.css'
 
 const ExerciseDeatils = ({ exerciseTime, breakTime }) => {
@@ -9,7 +9,7 @@ const ExerciseDeatils = ({ exerciseTime, breakTime }) => {
             <ExerciseDetail detailName="Exercise time" time={exerciseTime} />
             <ExerciseDetail detailName="Break time" time={breakTime} />
         </div>
-    );
-};
+    )
+}
 
-export default ExerciseDeatils;
+export default ExerciseDeatils

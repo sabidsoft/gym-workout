@@ -1,12 +1,14 @@
 import Exercises from './components/Exercises/Exercises';
 import './App.css';
-import HowReactWorks from './components/HowReactWorks/HowReactWorks';
+import Answer from './components/Answer/Answer';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className='app'>
       <Exercises/>
-      <HowReactWorks/>
+      <Answer/>
+      <Footer/>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import profilePic from '../../images/sabid.jpg'
 import './PersonBasicInfo.css'
 
@@ -11,7 +11,7 @@ const PersonBasicInfo = () => {
                 <p className='location'>Dhaka, Bangladesh</p>
             </div>
         </div>
-    );
-};
+    )
+}
 
-export default PersonBasicInfo;
+export default PersonBasicInfo

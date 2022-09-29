@@ -1,5 +1,5 @@
-import React from 'react';
-import BreakTimeBtn from '../BreakTimeBtn/BreakTimeBtn';
+import React from 'react'
+import BreakTimeBtn from '../BreakTimeBtn/BreakTimeBtn'
 import './Break.css'
 
 const Break = ({ handleBreakTime }) => {
@@ -14,7 +14,7 @@ const Break = ({ handleBreakTime }) => {
                 <BreakTimeBtn handleBreakTime={handleBreakTime} time="50s" />
             </div>
         </div>
-    );
-};
+    )
+}
 
-export default Break;
+export default Break

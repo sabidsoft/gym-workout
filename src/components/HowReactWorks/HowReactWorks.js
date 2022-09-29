@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import './HowReactWorks.css'
 
 const HowReactWorks = () => {
@@ -11,7 +11,7 @@ const HowReactWorks = () => {
             Any React app comes with a single root DOM node and this means that when it comes to rendering an Element into the DOM, there will be a change observed in the user interface of the page.
             </p>
         </div>
-    );
-};
+    )
+}
 
 export default HowReactWorks;

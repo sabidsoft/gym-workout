@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import Exercise from '../Exercise/Exercise';
-import ExercisesDetails from '../ExercisesDetails/ExercisesDetails';
-import Header from '../Header/Header';
+import React, { useEffect, useState } from 'react'
+import Exercise from '../Exercise/Exercise'
+import ExercisesDetails from '../ExercisesDetails/ExercisesDetails'
+import Header from '../Header/Header'
 import { addBreakTimeToLocalStorage, getBreakTimeFromLocalStorage } from '../../utilities/localStorage'
 import './Exercises.css'
 
@@ -58,7 +58,7 @@ const Exercises = () => {
                 <ExercisesDetails exerciseTime={exerciseTime} breakTime={breakTime} handleBreakTime={handleBreakTime} />
             </div>
         </div>
-    );
-};
+    )
+}
 
-export default Exercises;
+export default Exercises

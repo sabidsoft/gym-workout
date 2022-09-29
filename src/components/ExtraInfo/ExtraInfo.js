@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import './ExtraInfo.css'
 
 const ExtraInfo = ({ amount, unit, infoTitle }) => {
@@ -7,7 +7,7 @@ const ExtraInfo = ({ amount, unit, infoTitle }) => {
             <p className='amount'>{amount}<span className='unit'>{unit}</span></p>
             <p className='info_title'>{infoTitle}</p>
         </div>
-    );
-};
+    )
+}
 
-export default ExtraInfo;
+export default ExtraInfo

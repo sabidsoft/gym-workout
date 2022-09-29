@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import './ExerciseDetail.css'
 
 const ExerciseDetail = ({ detailName, time }) => {
@@ -7,7 +7,7 @@ const ExerciseDetail = ({ detailName, time }) => {
             <p className='detail_text'>{detailName}</p>
             <p className='detail_time'>{time} seconds</p>
         </div>
-    );
-};
+    )
+}
 
-export default ExerciseDetail;
+export default ExerciseDetail

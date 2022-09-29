@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import './Exercise.css'
 
 const Exercise = ({ exercise, handleExerciseTime }) => {
@@ -10,7 +10,7 @@ const Exercise = ({ exercise, handleExerciseTime }) => {
             <p className='time'>Time required: <span className='seconds'>{time}</span>s</p>
             <button onClick={() => handleExerciseTime(exercise)} className='btn_add'>Add to list</button>
         </div>
-    );
-};
+    )
+}
 
-export default Exercise;
+export default Exercise

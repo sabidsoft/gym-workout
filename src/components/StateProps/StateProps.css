@@ -1,0 +1,14 @@
+.state_props_container{
+    background-color: #222;
+}
+.state_ptops_title{
+    margin: 70px 0 0 0;
+    text-align: center;
+    padding: 60px 0 0 0;
+}
+.state_props_text{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 20px 10% 70px 10%;
+}
