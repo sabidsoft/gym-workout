@@ -1,0 +1,23 @@
+.person_basic_info{
+    display: flex;
+    margin-top: 40px;
+}
+.profilePic{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.name_location{
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.person_name{
+    margin: 0 0 6px 0;
+    font-size: 20px;
+}
+.location{
+    color: #9CA3AE;
+    margin: 0;
+}

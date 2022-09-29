@@ -4,10 +4,13 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className='header'>
-            <img className='brand_logo' src={logo} alt="brand_logo" />
-            <h1 className='brand_name'>GYM WORKOUT</h1>
-        </div>
+        <>
+            <div className='header'>
+                <img className='brand_logo' src={logo} alt="brand_logo" />
+                <h1 className='brand_name'>GYM WORKOUT</h1>
+            </div>
+            <p className='exercises_title'>Select today's exercise</p>
+        </>
     );
 };
 
