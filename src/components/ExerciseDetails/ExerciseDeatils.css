@@ -1,23 +1,7 @@
-.exercise_details{
+.exercise_details_container{
     margin-top: 40px;
 }
 .exercise_details_title{
     margin: 70px 0 0 0;
     font-size: 24px;
-}
-.exercise_time_container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #0d0d0d;
-    padding: 0 20px;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-.exrcs_text{
-    font-size: 20px;
-}
-.exrcs_time{
-    color: #aaa;
-    font-size: 20px;
 }

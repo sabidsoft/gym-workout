@@ -6,6 +6,8 @@ import './Exercises.css'
 
 const Exercises = () => {
     const [exercises, setExercises] = useState([])
+    const [exerciseTime, setExerciseTime] = useState(0)
+    const [breakTime, setBreakTime] = useState(0)
 
     useEffect(() => {
         fetch('exercises.json')
@@ -13,18 +15,38 @@ const Exercises = () => {
         .then(data => setExercises(data))
     }, [])
 
+    const handleExerciseTime = (exercise) => {
+        setExerciseTime(exerciseTime + exercise.time)
+    }
+
+    const handleBreakTime = (e) => {
+        let value = e.target.innerText
+        value = value.split('')
+        value.pop()
+        value = value.join('')
+        setBreakTime(value)
+    }
+
     return (
         <div className='exercises_container'>
             <div className="exercises_name_container">
                 <Header/>
                 <div className="exercises">
                     {
-                        exercises.map(exercise => <Exercise exercise={exercise} key={exercise._id} />)
+                        exercises.map(exercise => {
+                            return (
+                                <Exercise
+                                    exercise={exercise} 
+                                    key={exercise._id}
+                                    handleExerciseTime={handleExerciseTime}
+                                />
+                            )
+                        })
                     }
                 </div>
             </div>
             <div className="execises_details_container">
-                <ExercisesDetails/>
+                <ExercisesDetails exerciseTime={exerciseTime} breakTime={breakTime} handleBreakTime={handleBreakTime} />
             </div>
         </div>
     );

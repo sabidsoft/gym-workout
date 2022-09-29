@@ -1,18 +1,13 @@
 import React from 'react';
+import ExerciseDetail from '../ExerciseDetail/ExerciseDetail';
 import './ExerciseDeatils.css'
 
-const ExerciseDeatils = () => {
+const ExerciseDeatils = ({ exerciseTime, breakTime }) => {
     return (
-        <div className='exercise_details'>
+        <div className='exercise_details_container'>
             <p className='exercise_details_title'>Exercise Details</p>
-            <div className="exercise_time_container">
-                <p className='exrcs_text'>Exercise time</p>
-                <p className='exrcs_time'>200 seconds</p>
-            </div>
-            <div className="exercise_time_container">
-                <p className='exrcs_text'>Break time</p>
-                <p className='exrcs_time'>20 seconds</p>
-            </div>
+            <ExerciseDetail detailName="Exercise time" time={exerciseTime} />
+            <ExerciseDetail detailName="Break time" time={breakTime} />
         </div>
     );
 };

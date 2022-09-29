@@ -1,0 +1,16 @@
+.exercise_detail_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d0d0d;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.detail_text{
+    font-size: 20px;
+}
+.detail_time{
+    color: #aaa;
+    font-size: 20px;
+}

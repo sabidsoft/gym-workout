@@ -6,13 +6,13 @@ import PersonBasicInfo from '../PersonBasicInfo/PersonBasicInfo';
 import PersonExtraInfo from '../PersonExtraInfo/PersonExtraInfo';
 import './ExercisesDetails.css'
 
-const ExercisesDetails = () => {
+const ExercisesDetails = ({ exerciseTime, breakTime, handleBreakTime }) => {
     return (
         <div>
             <PersonBasicInfo/>
             <PersonExtraInfo/>
-            <Break/>
-            <ExerciseDeatils/>
+            <Break handleBreakTime={handleBreakTime} />
+            <ExerciseDeatils exerciseTime={exerciseTime} breakTime={breakTime} />
             <ActivityButton/>
         </div>
     );

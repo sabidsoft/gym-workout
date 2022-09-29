@@ -1,16 +1,17 @@
 import React from 'react';
+import BreakTimeBtn from '../BreakTimeBtn/BreakTimeBtn';
 import './Break.css'
 
-const Break = () => {
+const Break = ({ handleBreakTime }) => {
     return (
         <div className='break_container'>
             <p className='break_title'>Add A Break</p>
             <div className="break_time">
-                <button className='time_text'>10s</button>
-                <button className='time_text'>20s</button>
-                <button className='time_text'>30s</button>
-                <button className='time_text'>40s</button>
-                <button className='time_text'>50s</button>
+                <BreakTimeBtn handleBreakTime={handleBreakTime} time="10s" />
+                <BreakTimeBtn handleBreakTime={handleBreakTime} time="20s" />
+                <BreakTimeBtn handleBreakTime={handleBreakTime} time="30s" />
+                <BreakTimeBtn handleBreakTime={handleBreakTime} time="40s" />
+                <BreakTimeBtn handleBreakTime={handleBreakTime} time="50s" />
             </div>
         </div>
     );

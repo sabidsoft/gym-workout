@@ -2,37 +2,37 @@
     {
         "_id": "63347681aef3866ccfe1ceb3",
         "name": "Push Ups",
-        "time": "30s",
+        "time": 30,
         "image": "https://www.dmarge.com/wp-content/uploads/2020/01/push-up-image.jpg"
     },
     {
         "_id": "6334768163fd03248e4af8af",
         "name": "Dumbell Row",
-        "time": "40s",
+        "time": 40,
         "image": "https://d3h9ln6psucegz.cloudfront.net/wp-content/uploads/2022/03/Dumbbell-Row.jpg"
     },
     {
         "_id": "63347681c46e86c19d01f75f",
         "name": "Squats",
-        "time": "35s",
+        "time": 35,
         "image": "https://images.ctfassets.net/3s5io6mnxfqz/34Npc5PKLKJi6HIYvFw9XI/3e45754912cf266e7401cb8074c63239/AdobeStock_386146138_2.jpeg"
     },
     {
         "_id": "63347681294c0ad8105ba514",
         "name": "Abdominal Crunches",
-        "time": "20s",
+        "time": 20,
         "image": "https://foreverfitscience.com/wp-content/uploads/2020/01/crunches.jpg"
     },
     {
         "_id": "633476814417d254e2e99aa3",
         "name": "Lunges",
-        "time": "25s",
+        "time": 25,
         "image": "https://hips.hearstapps.com/hmg-prod/images/701/articles/2017/07/all-day-lunges-1518125730.jpg"
     },
     {
         "_id": "63347681a07ef0ad88c21469",
         "name": "Burpees",
-        "time": "30s",
+        "time": 30,
         "image": "https://fitnessvolt.com/wp-content/uploads/2022/09/Alternative-to-Burpees.jpg"
     }
 ]

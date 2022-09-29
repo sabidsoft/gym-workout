@@ -1,0 +1,16 @@
+.time_text{
+    width: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #eee;
+    background-color: #DE4839;
+    border: none;
+    border-radius: 50%;
+    transition: .5s;
+}
+.time_text:hover{
+    background-color: #BF3325;
+}
