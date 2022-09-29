@@ -1,0 +1,28 @@
+.break_container{
+    margin-top: 40px;
+}
+.break_title{
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.break_time{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0d0d0d;
+    border-radius: 10px;
+    padding: 16px 0;
+    margin-top: 40px;
+}
+.time_text{
+    width: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #eee;
+    background-color: #F15A2D;
+    border: none;
+    border-radius: 50%;
+}
