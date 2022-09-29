@@ -1,0 +1,14 @@
+.how_react_container{
+    background-color: #222;
+}
+.how_react_title{
+    margin: 70px 0 0 0;
+    text-align: center;
+    padding: 60px 0 0 0;
+}
+.how_react_para{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 20px 10% 70px 10%;
+}

@@ -13,7 +13,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 26px;
-    margin: 26px 0;
+    margin: 26px 0 0 0;
 }
 
 .execises_details_container{
