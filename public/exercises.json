@@ -2,42 +2,36 @@
     {
         "_id": "63347681aef3866ccfe1ceb3",
         "name": "Push Ups",
-        "description": "Traditional pushups are beneficial for building upper body strength. They work the triceps, pectoral muscles, and shoulders.",
         "time": "30s",
         "image": "https://post.greatist.com/wp-content/uploads/sites/2/2019/04/FEATURE1-1200x628.jpg"
     },
     {
         "_id": "6334768163fd03248e4af8af",
         "name": "Dumbell Row",
-        "description": "Dumbbell rows put special emphasis on your back muscles, including the latissimus dorsi, posterior deltoids, teres major, trapezius, and rhomboids.",
-        "time": "30s",
+        "time": "40s",
         "image": "https://d3h9ln6psucegz.cloudfront.net/wp-content/uploads/2022/03/Dumbbell-Row.jpg"
     },
     {
         "_id": "63347681c46e86c19d01f75f",
         "name": "Squats",
-        "description": "Squats burn calories and might help you lose weight. They also lower your chances of injuring your knees and ankles.",
-        "time": "30s",
+        "time": "35s",
         "image": "https://miro.medium.com/max/1400/1*z1fRxlrat0kr7gblSkAqHQ.jpeg"
     },
     {
         "_id": "63347681294c0ad8105ba514",
         "name": "Abdominal Crunches",
-        "description": "Like situps, crunches help you build muscle. But unlike situps, they work only the abdominal muscles.",
-        "time": "30s",
+        "time": "20s",
         "image": "https://foreverfitscience.com/wp-content/uploads/2020/01/crunches.jpg"
     },
     {
         "_id": "633476814417d254e2e99aa3",
         "name": "Lunges",
-        "description": "Lunges increase muscle mass to build up strength and tone your body, especially your core, butt, and legs.",
-        "time": "30s",
+        "time": "25s",
         "image": "https://hips.hearstapps.com/hmg-prod/images/701/articles/2017/07/all-day-lunges-1518125730.jpg"
     },
     {
         "_id": "63347681a07ef0ad88c21469",
         "name": "Burpees",
-        "description": "With burpees, the focus is on a full-body calisthenics workout that aims to build muscle strength and endurance in both your lower and upper body.",
         "time": "30s",
         "image": "https://fitnessvolt.com/wp-content/uploads/2022/09/Alternative-to-Burpees.jpg"
     }
