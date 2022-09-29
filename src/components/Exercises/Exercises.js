@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import logo from '../../images/brand-logo.png'
 import Exercise from '../Exercise/Exercise';
+import Header from '../Header/Header';
 import './Exercises.css'
 
 const Exercises = () => {
@@ -15,22 +15,10 @@ const Exercises = () => {
     return (
         <div className='exercises_container'>
             <div className="exercises_name_container">
-                <div className="header">
-                    <img className='brand_logo' src={logo} alt="brand_logo" />
-                    <h1 className='brand_name'>GYM WORKOUT</h1>
-                </div>
+                <Header/>
                 <p className='exercises_title'>Select today's exercise</p>
                 <div className="exercises">
-                    {
-                        exercises.map(exercise => {
-                            return (
-                                <Exercise
-                                    exercise={exercise}
-                                    key={exercise._id}
-                                />
-                            )
-                        })
-                    }
+                    {exercises.map(exercise => <Exercise exercise={exercise} key={exercise._id} />)}
                 </div>
             </div>
             <div className="execises_details_container">
