@@ -1,4 +1,5 @@
 import React from 'react';
+import ActivityButton from '../ActivityButton/ActivityButton';
 import Break from '../Break/Break';
 import ExerciseDeatils from '../ExerciseDetails/ExerciseDeatils';
 import PersonBasicInfo from '../PersonBasicInfo/PersonBasicInfo';
@@ -12,6 +13,7 @@ const ExercisesDetails = () => {
             <PersonExtraInfo/>
             <Break/>
             <ExerciseDeatils/>
+            <ActivityButton/>
         </div>
     );
 };

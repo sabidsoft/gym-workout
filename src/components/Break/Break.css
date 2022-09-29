@@ -1,11 +1,7 @@
-.break_container{
-    margin-top: 40px;
-}
 .break_title{
     margin: 40px 0 0 0;
     font-size: 24px;
 }
-
 .break_time{
     display: flex;
     justify-content: space-around;
@@ -22,7 +18,11 @@
     font-size: 16px;
     font-weight: 600;
     color: #eee;
-    background-color: #F15A2D;
+    background-color: #DE4839;
     border: none;
     border-radius: 50%;
+    transition: .5s;
+}
+.time_text:hover{
+    background-color: #BF3325;
 }
